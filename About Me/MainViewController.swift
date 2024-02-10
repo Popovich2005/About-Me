@@ -14,7 +14,6 @@ final class ViewController: UIViewController {
     
     @IBOutlet var logInButton: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

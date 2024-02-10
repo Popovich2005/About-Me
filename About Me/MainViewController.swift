@@ -26,15 +26,7 @@ final class ViewController: UIViewController {
     }
     
     @IBAction func logInButtonAction() {
-        guard userNameTF.text == "Alex" else {
-            showAlert(
-                withTitle: "Invalid login or passvord",
-                andMessage: "Pleas, enter correct login and password"
-            )
-            return
-        }
-        
-        guard passwordTF.text == "11" else {
+        guard userNameTF.text == "Alex", passwordTF.text == "11" else {
             showAlert(
                 withTitle: "Invalid login or passvord",
                 andMessage: "Pleas, enter correct login and password"

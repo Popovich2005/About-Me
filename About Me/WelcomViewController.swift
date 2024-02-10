@@ -9,7 +9,6 @@ import UIKit
 
 final class WelcomViewController: UIViewController {
 
-    
     @IBOutlet var welcomLabel: UILabel!
     
     var welcom: String!
@@ -18,5 +17,4 @@ final class WelcomViewController: UIViewController {
         super.viewDidLoad()
         welcomLabel.text = welcom
     }
-    
 }
